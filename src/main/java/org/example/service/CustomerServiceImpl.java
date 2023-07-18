@@ -13,7 +13,8 @@ public class CustomerServiceImpl implements CustomerService{
  }
     @Override
     public void insertCustomer(CustomerDTO customer) {
-        customerRepository.addCustomer(customer);
+
+     customerRepository.addCustomer(customer);
     }
 
     @Override
